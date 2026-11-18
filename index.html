@@ -123,6 +123,11 @@
             <span>Alianza GESURA</span>
             <span class="px-1.5 py-0.2 rounded text-[9px] bg-blue-100 text-blue-900 font-black border border-blue-200">Valle</span>
           </button>
+          <button onclick="navigateToTab('tienda')" class="tab-nav-tienda px-3.5 py-2 rounded-xl text-xs xl:text-sm font-bold text-slate-600 hover:text-sig-navy hover:bg-slate-100 transition-all cursor-pointer flex items-center gap-1.5">
+            <i class="fa-solid fa-store text-sig-teal text-xs"></i>
+            <span>Tienda</span>
+            <span class="px-1.5 py-0.2 rounded text-[9px] bg-sig-teal/20 text-sig-teal font-black border border-sig-teal/30">Packs</span>
+          </button>
           <button onclick="navigateToTab('plataformas')" class="tab-nav-plataformas px-3.5 py-2 rounded-xl text-xs xl:text-sm font-bold text-slate-600 hover:text-sig-navy hover:bg-slate-100 transition-all cursor-pointer flex items-center gap-1.5">
             <span class="w-1.5 h-1.5 rounded-full bg-sig-teal"></span>
             <span>Plataformas & Software</span>
@@ -164,6 +169,11 @@
       <button onclick="navigateToTab('alianza-gesura')" class="tab-nav-alianza-gesura w-full text-left py-2.5 px-3 rounded-lg font-bold text-blue-900 bg-blue-50/50 flex items-center justify-between">
         <span class="flex items-center gap-2"><i class="fa-solid fa-handshake-angle text-blue-600"></i> Alianza GESURA</span>
         <span class="px-2 py-0.5 rounded text-[10px] bg-blue-100 text-blue-900 font-black">Valle</span>
+      </button>
+      <button onclick="navigateToTab('tienda')" class="tab-nav-tienda w-full text-left py-2.5 px-3 rounded-lg font-bold text-slate-700 hover:bg-slate-50 flex items-center gap-2">
+        <i class="fa-solid fa-store text-sig-teal"></i>
+        <span>Tienda SIGÂ²</span>
+        <span class="ml-auto px-2 py-0.5 rounded text-[10px] bg-sig-teal/20 text-sig-teal font-black">Packs</span>
       </button>
       <button onclick="navigateToTab('plataformas')" class="tab-nav-plataformas w-full text-left py-2.5 px-3 rounded-lg font-bold text-slate-700 hover:bg-slate-50 flex items-center gap-2">
         <span class="w-2 h-2 rounded-full bg-sig-teal"></span>
@@ -1039,6 +1049,246 @@
   
 </div>
 
+
+<!-- ================================================================ -->
+<!-- VIEW: TIENDA SIGÂ² - PACKS DE ARCHIVOS TECNICOS + CALCULADORA    -->
+<!-- ================================================================ -->
+<div id="view-tienda" class="main-tab-view hidden">
+
+<!-- HERO TIENDA -->
+<section class="py-14 bg-gradient-to-br from-sig-navy via-slate-900 to-slate-800 text-white border-b border-slate-700">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto reveal-on-scroll">
+      <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sig-teal/20 border border-sig-teal/40 text-sig-teal text-xs font-black uppercase tracking-wider mb-4 shadow-sm">
+        <i class="fa-solid fa-store"></i>
+        TIENDA DIGITAL SIGÂ² GRUPO
+      </span>
+      <h1 class="text-3xl sm:text-5xl font-black tracking-tight mb-4">
+        Packs de Archivos <span class="text-sig-teal">TÃ©cnicos</span>
+      </h1>
+      <p class="text-slate-300 text-base sm:text-lg leading-relaxed mb-6">
+        Recursos profesionales para topografÃ­a, ingenierÃ­a civil, AutoCAD y gestiÃ³n de proyectos. 
+        Descarga inmediata â€” creados y validados por ingenieros SIGÂ².
+      </p>
+      <div class="flex flex-wrap justify-center gap-3 text-xs font-bold">
+        <span class="px-3 py-1.5 bg-white/10 rounded-lg flex items-center gap-1.5"><i class="fa-solid fa-bolt text-yellow-400"></i> Descarga Inmediata</span>
+        <span class="px-3 py-1.5 bg-white/10 rounded-lg flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-green-400"></i> Archivos Verificados</span>
+        <span class="px-3 py-1.5 bg-white/10 rounded-lg flex items-center gap-1.5"><i class="fa-solid fa-headset text-blue-400"></i> Soporte TÃ©cnico</span>
+        <span class="px-3 py-1.5 bg-white/10 rounded-lg flex items-center gap-1.5"><i class="fa-solid fa-rotate text-purple-400"></i> Actualizaciones Incluidas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FILTROS DE CATEGORIA -->
+<section class="sticky top-14 z-30 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-2 overflow-x-auto scrollbar-hide">
+    <span class="text-xs font-black text-slate-400 uppercase tracking-wider mr-2 whitespace-nowrap">CategorÃ­a:</span>
+    <button onclick="filterTienda('todos')" class="tienda-cat-btn active-cat whitespace-nowrap px-4 py-2 rounded-xl text-xs font-bold bg-sig-navy text-white transition-all" data-cat="todos">
+      <i class="fa-solid fa-grid-2 mr-1"></i> Todos
+    </button>
+    <button onclick="filterTienda('autocad')" class="tienda-cat-btn whitespace-nowrap px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-cat="autocad">
+      <i class="fa-solid fa-drafting-compass mr-1 text-orange-500"></i> AutoCAD / DWG
+    </button>
+    <button onclick="filterTienda('topografia')" class="tienda-cat-btn whitespace-nowrap px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-cat="topografia">
+      <i class="fa-solid fa-map-location-dot mr-1 text-green-600"></i> TopografÃ­a / GIS
+    </button>
+    <button onclick="filterTienda('plantillas')" class="tienda-cat-btn whitespace-nowrap px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-cat="plantillas">
+      <i class="fa-solid fa-file-excel mr-1 text-emerald-600"></i> Plantillas Excel
+    </button>
+    <button onclick="filterTienda('civil')" class="tienda-cat-btn whitespace-nowrap px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-cat="civil">
+      <i class="fa-solid fa-road mr-1 text-blue-600"></i> Civil / VÃ­as
+    </button>
+    <button onclick="filterTienda('lsp')" class="tienda-cat-btn whitespace-nowrap px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-cat="lsp">
+      <i class="fa-solid fa-code mr-1 text-purple-600"></i> Scripts AutoLISP
+    </button>
+    <button onclick="filterTienda('gestion')" class="tienda-cat-btn whitespace-nowrap px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all" data-cat="gestion">
+      <i class="fa-solid fa-chart-pie mr-1 text-sig-teal"></i> GestiÃ³n & LogÃ­stica
+    </button>
+  </div>
+</section>
+
+<!-- GRID DE PRODUCTOS -->
+<section class="py-12 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Banner Promo -->
+    <div class="mb-8 p-4 bg-gradient-to-r from-sig-teal/10 to-blue-50 border border-sig-teal/30 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 reveal-on-scroll">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-sig-teal flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-tag text-white"></i>
+        </div>
+        <div>
+          <div class="font-black text-sig-navy text-sm">Pack Completo â€” Oferta Lanzamiento</div>
+          <div class="text-slate-600 text-xs">Acceso a TODOS los archivos: DWG + Plantillas + Scripts + TopografÃ­a</div>
+        </div>
+      </div>
+      <a href="https://wa.me/573127894040?text=Hola%20SIGÂ²,%20quiero%20informaciÃ³n%20sobre%20el%20Pack%20Completo" target="_blank"
+         class="whitespace-nowrap px-5 py-2.5 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all flex items-center gap-2">
+        <i class="fa-brands fa-whatsapp text-green-400"></i> Consultar Precio
+      </a>
+    </div>
+
+    <!-- Grid de tarjetas -->
+    <div id="tienda-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+      <!-- Las tarjetas se renderizan por JS -->
+    </div>
+    
+    <!-- Mensaje vacÃ­o -->
+    <div id="tienda-empty" class="hidden py-16 text-center">
+      <i class="fa-solid fa-box-open text-4xl text-slate-300 mb-3"></i>
+      <p class="text-slate-500 font-bold">No hay productos en esta categorÃ­a aÃºn.</p>
+    </div>
+    
+  </div>
+</section>
+
+<!-- CALCULADORA UTM SIGÂ² -->
+<section id="calculadora-utm" class="py-16 bg-slate-900 text-slate-100 border-t border-slate-700">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center mb-10 reveal-on-scroll">
+      <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sig-teal/20 border border-sig-teal/40 text-sig-teal text-xs font-black uppercase tracking-wider mb-4">
+        <i class="fa-solid fa-calculator"></i>
+        HERRAMIENTA GRATUITA
+      </span>
+      <h2 class="text-2xl sm:text-3xl font-black tracking-tight text-white mb-3">
+        Calculadora de <span class="text-sig-teal">Coordenadas UTM</span>
+      </h2>
+      <p class="text-slate-400 text-sm max-w-2xl mx-auto">
+        InterpolaciÃ³n de puntos entre dos coordenadas UTM. Calcula distancia, azimut y puntos intermedios a intervalo definido. Exporta a CSV para importar en cualquier equipo topogrÃ¡fico.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      
+      <!-- Panel Input -->
+      <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700 shadow-xl">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-9 h-9 rounded-xl bg-sig-teal flex items-center justify-center">
+            <i class="fa-solid fa-crosshairs text-white text-sm"></i>
+          </div>
+          <div>
+            <div class="font-black text-white text-sm">InterpolaciÃ³n entre Puntos UTM</div>
+            <div class="text-slate-400 text-xs">Sistema de referencia: MAGNA-SIRGAS / WGS84</div>
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-4 mb-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">Este A (m)</label>
+            <input type="number" id="utm-esteA" placeholder="Ej: 1050000" 
+              class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">Norte A (m)</label>
+            <input type="number" id="utm-norteA" placeholder="Ej: 752000"
+              class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">Este B (m)</label>
+            <input type="number" id="utm-esteB" placeholder="Ej: 1050250"
+              class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">Norte B (m)</label>
+            <input type="number" id="utm-norteB" placeholder="Ej: 752130"
+              class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+        </div>
+        
+        <div class="mb-5">
+          <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">Intervalo de InterpolaciÃ³n (m)</label>
+          <input type="number" id="utm-intervalo" value="20" placeholder="Ej: 20"
+            class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <button onclick="calcularUTM()" 
+            class="py-3 bg-sig-teal text-white font-black text-sm rounded-xl hover:bg-teal-500 transition-all flex items-center justify-center gap-2 shadow-lg shadow-sig-teal/30">
+            <i class="fa-solid fa-play"></i> Calcular
+          </button>
+          <button onclick="exportarUTMCSV()"
+            class="py-3 bg-slate-700 text-slate-200 font-bold text-sm rounded-xl hover:bg-slate-600 transition-all flex items-center justify-center gap-2">
+            <i class="fa-solid fa-file-csv text-green-400"></i> Exportar CSV
+          </button>
+        </div>
+
+        <!-- Resultados resumen -->
+        <div id="utm-resumen" class="hidden mt-5 p-4 bg-slate-900 rounded-xl border border-slate-700 text-sm font-mono">
+        </div>
+      </div>
+
+      <!-- Panel Resultados -->
+      <div class="bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden shadow-xl">
+        <div class="px-5 py-4 border-b border-slate-700 flex items-center justify-between">
+          <div class="font-black text-white text-sm flex items-center gap-2">
+            <i class="fa-solid fa-table-list text-sig-teal"></i>
+            Tabla de Puntos Interpolados
+          </div>
+          <span id="utm-count" class="text-xs text-slate-400 font-bold">â€” puntos</span>
+        </div>
+        <div class="overflow-auto max-h-80">
+          <table class="w-full text-xs font-mono">
+            <thead class="bg-slate-900 sticky top-0">
+              <tr>
+                <th class="px-4 py-2.5 text-left text-slate-400 font-black uppercase tracking-wider">Punto</th>
+                <th class="px-4 py-2.5 text-right text-slate-400 font-black uppercase tracking-wider">Este (m)</th>
+                <th class="px-4 py-2.5 text-right text-slate-400 font-black uppercase tracking-wider">Norte (m)</th>
+                <th class="px-4 py-2.5 text-right text-slate-400 font-black uppercase tracking-wider">Dist. (m)</th>
+              </tr>
+            </thead>
+            <tbody id="utm-tabla-body" class="divide-y divide-slate-700/50">
+              <tr>
+                <td colspan="4" class="px-4 py-10 text-center text-slate-500">
+                  <i class="fa-solid fa-map-pin text-2xl mb-2 block"></i>
+                  Ingresa coordenadas y presiona Calcular
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info extra -->
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+      <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700/50">
+        <i class="fa-solid fa-earth-americas text-sig-teal text-xl mb-2"></i>
+        <div class="text-xs font-black text-slate-300 mb-1">Sistema Compatible</div>
+        <div class="text-xs text-slate-500">MAGNA-SIRGAS Â· WGS84 Â· SAD69</div>
+      </div>
+      <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700/50">
+        <i class="fa-solid fa-file-export text-green-400 text-xl mb-2"></i>
+        <div class="text-xs font-black text-slate-300 mb-1">ExportaciÃ³n</div>
+        <div class="text-xs text-slate-500">CSV compatible con AutoCAD, Civil 3D y GPS</div>
+      </div>
+      <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700/50">
+        <i class="fa-solid fa-infinity text-purple-400 text-xl mb-2"></i>
+        <div class="text-xs font-black text-slate-300 mb-1">Uso Ilimitado</div>
+        <div class="text-xs text-slate-500">Herramienta gratuita para clientes SIGÂ²</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="py-10 bg-white border-t border-slate-200">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h3 class="text-xl font-black text-sig-navy mb-2">Â¿Necesitas un pack personalizado?</h3>
+    <p class="text-slate-600 text-sm mb-5">Creamos paquetes a medida para tu empresa o proyecto especÃ­fico. Plantillas corporativas, bloques CAD propietarios y scripts personalizados.</p>
+    <a href="https://wa.me/573127894040?text=Hola%20SIGÂ²,%20necesito%20un%20pack%20de%20archivos%20personalizado" target="_blank"
+       class="inline-flex items-center gap-2 px-6 py-3 bg-sig-navy text-white font-black text-sm rounded-xl hover:bg-sig-teal transition-all shadow-lg">
+      <i class="fa-brands fa-whatsapp text-green-400 text-base"></i>
+      Solicitar Pack Personalizado
+    </a>
+  </div>
+</section>
+
+</div>
+<!-- ================================================================ -->
+<!-- FIN VIEW-TIENDA                                                  -->
+<!-- ================================================================ -->
 <div id="view-plataformas" class="main-tab-view hidden">
 <section id="plataformas" class="py-16 bg-slate-900 text-slate-100 border-b border-slate-800 scroll-mt-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
