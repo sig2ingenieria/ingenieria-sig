@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda SIG² | Packs de Archivos Técnicos — AutoCAD, Civil 3D, Topografía, Excel</title>
+  <meta name="description" content="Packs de archivos técnicos profesionales: DWG AutoCAD, Civil 3D, plantillas Excel, scripts AutoLISP, GIS y más. Descarga inmediata.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: {
+        sig: { navy: '#06466C', 'navy-dark': '#04324E', teal: '#168F8A', 'teal-dark': '#106E6A' }
+      }, fontFamily: { sans: ['Arial', '"Helvetica Neue"', 'Helvetica', 'sans-serif'] } } }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .card-hover { transition: all 0.25s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(6,70,108,0.12); border-color: #168F8A; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+<!-- HEADER -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="assets/sig2-logo-grupo.jpg" alt="SIG² GRUPO" class="h-10 w-auto object-contain">
+      </a>
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="text-xs font-bold text-slate-600 hover:text-sig-navy transition-colors flex items-center gap-1.5">
+          <i class="fa-solid fa-arrow-left text-xs"></i> Volver al sitio
+        </a>
+        <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20packs" target="_blank"
+           class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+          <i class="fa-brands fa-whatsapp text-green-400"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="py-14 bg-slate-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sig-teal/20 border border-sig-teal/40 text-sig-teal text-xs font-black uppercase tracking-wider mb-4">
+      <i class="fa-solid fa-store text-xs"></i> TIENDA DIGITAL SIG² GRUPO
+    </span>
+    <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight mb-4">
+      Packs de Archivos<br><span class="text-sig-teal">Técnicos Profesionales</span>
+    </h1>
+    <p class="text-slate-300 text-base sm:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+      Recursos verificados para topografía, ingeniería civil, AutoCAD, ArcGIS y gestión de proyectos.
+      Creados y validados por ingenieros SIG². Entrega inmediata vía WhatsApp.
+    </p>
+    <div class="flex flex-wrap justify-center gap-3">
+      <span class="flex items-center gap-2 text-xs font-bold text-slate-300 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5">
+        <i class="fa-solid fa-bolt text-yellow-400"></i> Entrega Inmediata
+      </span>
+      <span class="flex items-center gap-2 text-xs font-bold text-slate-300 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5">
+        <i class="fa-solid fa-shield-halved text-green-400"></i> Archivos Verificados
+      </span>
+      <span class="flex items-center gap-2 text-xs font-bold text-slate-300 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5">
+        <i class="fa-solid fa-rotate text-blue-400"></i> Actualizaciones Incluidas
+      </span>
+      <span class="flex items-center gap-2 text-xs font-bold text-slate-300 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5">
+        <i class="fa-solid fa-headset text-sig-teal"></i> Soporte Técnico
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- PACK COMPLETO DESTACADO -->
+<section class="bg-gradient-to-r from-sig-navy to-slate-900 border-b border-slate-700">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="flex flex-col lg:flex-row items-center gap-6 lg:gap-10">
+      <div class="w-full lg:w-72 h-44 rounded-2xl overflow-hidden flex-shrink-0 bg-slate-800">
+        <img src="assets/pack-completo-30gb.jpg" alt="Pack Completo SIG² 30 GB"
+             class="w-full h-full object-cover"
+             onerror="this.parentElement.classList.add('bg-gradient-to-br','from-sig-navy','to-sig-teal');this.style.display='none'">
+      </div>
+      <div class="flex-1 text-center lg:text-left">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-400/20 border border-yellow-400/40 text-yellow-300 text-xs font-black uppercase tracking-wider mb-3">
+          <i class="fa-solid fa-star text-xs"></i> PACK COMPLETO — OFERTA LANZAMIENTO
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight mb-2">
+          Pack Total SIG² — 30 GB de Contenido Técnico
+        </h2>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4 max-w-2xl">
+          Acceso a <strong class="text-white">todos los archivos</strong>: DWG AutoCAD y Civil 3D, proyectos Revit estructural,
+          capas ArcGIS / QGIS, plantillas Excel de producción y calidad, scripts AutoLISP, apps RTK y más.
+          Más de <strong class="text-white">200 archivos verificados</strong>.
+        </p>
+        <div class="flex flex-wrap justify-center lg:justify-start gap-2 mb-5 text-xs">
+          <span class="px-2.5 py-1 bg-white/10 text-slate-200 rounded-lg font-bold">Revit Estructural</span>
+          <span class="px-2.5 py-1 bg-white/10 text-slate-200 rounded-lg font-bold">Civil 3D</span>
+          <span class="px-2.5 py-1 bg-white/10 text-slate-200 rounded-lg font-bold">AutoCAD DWG</span>
+          <span class="px-2.5 py-1 bg-white/10 text-slate-200 rounded-lg font-bold">ArcGIS Pro</span>
+          <span class="px-2.5 py-1 bg-white/10 text-slate-200 rounded-lg font-bold">QGIS</span>
+          <span class="px-2.5 py-1 bg-white/10 text-slate-200 rounded-lg font-bold">Scripts AutoLISP</span>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+          <div class="text-center sm:text-left">
+            <div class="text-slate-400 text-xs line-through mb-0.5">COP $280.000</div>
+            <div class="text-3xl font-black text-white">COP $110.000</div>
+            <div class="text-sig-teal text-xs font-bold">61% descuento lanzamiento</div>
+          </div>
+          <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Completo%2030GB%20por%20COP%20%24110.000"
+             target="_blank"
+             class="flex items-center gap-2 px-6 py-3.5 bg-sig-teal text-white font-black text-sm rounded-xl hover:bg-teal-500 transition-all shadow-lg whitespace-nowrap">
+            <i class="fa-brands fa-whatsapp text-green-300 text-base"></i> Adquirir Pack Completo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GRID DE PACKS -->
+<section class="py-12 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <div class="mb-8 text-center">
+      <h2 class="text-xl font-black text-sig-navy mb-1">Packs Individuales</h2>
+      <p class="text-slate-500 text-sm">Selecciona el pack que necesitas — entrega por WhatsApp</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- 1. Señalización Vial INVIAS -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-autocad-dwg.jpg" alt="Pack Señalización Vial INVIAS" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-orange-100 text-orange-800">DWG / AutoCAD</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">3 archivos</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">45 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Señalización Vial INVIAS</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Bloques dinámicos de señales de tránsito según norma INVIAS Colombia. Señales preventivas, reglamentarias e informativas.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>SEÑALES DE TRANSITO INVIAS.dwg</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>SEÑALIZACIÓN.dwg</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>BLOQUES DINÁMICOS SEÑALIZACIÓN COLOMBIA.rar</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $45.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Se%C3%B1alizaci%C3%B3n%20Vial%20INVIAS" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Estructural -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-autocad-dwg.jpg" alt="Pack Estructural" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-orange-100 text-orange-800">DWG / Estructural</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">6 archivos</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">90 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Estructural — Cimentaciones y Losas</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Bloques y plantillas para diseño estructural: cimentaciones, losas aligeradas, vigas, estribos y detalles constructivos en concreto reforzado.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>BD CIMENTACIONES.dwg</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>LOSA ALIGERADA Y DETALLES.dwg</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span class="text-slate-400">+ 4 archivos más incluidos</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $55.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Estructural%20Cimentaciones" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Civil 3D Vías -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-civil-vias.jpg" alt="Pack Civil 3D Vías" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-blue-100 text-blue-800">Civil 3D / Assemblies</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">4 archivos</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">75 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Civil 3D — Vías Urbanas y Assemblies</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Colección de assemblies para Autodesk Civil 3D y bloques para diseño de vías urbanas, pistas y veredas según normas colombianas.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>ASSEMBLYS VIAS URBANAS.dwg</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>SUBASSEMBLY COLLECTION.dwg</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>PLANTILLA PISTAS VEREDAS.dwt</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $50.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Civil%203D%20V%C3%ADas%20Urbanas" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Red Pasiva GNSS -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-topografia-gis.jpg" alt="Red Pasiva GNSS Colombia" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-green-100 text-green-800">GIS / KMZ</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">1 archivo</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">8 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Red Pasiva GNSS Colombia</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Archivo KMZ con la Red Pasiva GNSS de Colombia para Google Earth. Estaciones del IGAC y SGC georreferenciadas.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>RED PASIVA COLOMBIA.kmz</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $25.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20la%20Red%20Pasiva%20GNSS%20Colombia" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Apps GPS RTK -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-topografia-gis.jpg" alt="Apps GPS RTK" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-green-100 text-green-800">APK / GPS RTK</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">7 apps</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">350 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Apps GPS RTK y GIS Móvil</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Colección de APKs para levantamientos topográficos con GPS RTK, visualización DWG en campo y planificación de vuelos drone.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>rtk-app.apk + rtkgps.apk</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>DWG FastView + Drone Assist</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span class="text-slate-400">+ 3 apps más incluidas</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $35.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Apps%20GPS%20RTK" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Producción e Inventario -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-plantillas-excel.jpg" alt="Pack Producción Inventario" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-emerald-100 text-emerald-800">Excel / Producción</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">8 archivos</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">15 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Producción e Inventario</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Suite completa: EOQ, MRP, OEE, revisión continua de inventario, pronósticos y lote económico de producción en Excel.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>EOQ Model.xlsx</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>OEE Planta.xlsx</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span class="text-slate-400">+ 6 plantillas más</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $45.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Producci%C3%B3n%20e%20Inventario" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Calidad -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-plantillas-excel.jpg" alt="Pack Calidad" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-emerald-100 text-emerald-800">Excel / Calidad</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">7 archivos</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">12 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Herramientas de Calidad</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Plantillas profesionales: Diagrama de Pareto, Ishikawa, 5W2H, Dispersión, Matriz BCG y Matriz de Vester.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>5W2H.xlsx + Pareto.xlsx</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>Ishikawa + Dispersión.xlsx</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span class="text-slate-400">+ 3 plantillas más</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $40.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Herramientas%20de%20Calidad" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Plantillas Civiles -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-civil-vias.jpg" alt="Pack Plantillas Civiles" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-blue-100 text-blue-800">Civil / DWT</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">12 archivos</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">180 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Plantillas Civiles Completas</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Plantillas DWT profesionales: saneamiento, carreteras, canales, movimiento de tierras, muros de contención y túneles.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>Saneamiento + Carreteras.rar</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>Canal + Movimiento Tierras.dwt</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span class="text-slate-400">+ 10 plantillas más</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $60.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Plantillas%20Civiles%20Completas" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. AutoLISP -->
+      <div class="bg-white rounded-2xl border border-slate-200 card-hover flex flex-col overflow-hidden">
+        <div class="relative h-44 bg-slate-800 overflow-hidden flex-shrink-0">
+          <img src="assets/pack-lisp-scripts.jpg" alt="Scripts AutoLISP" class="w-full h-full object-cover">
+          <div class="absolute top-3 left-3"><span class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-purple-100 text-purple-800">AutoLISP / Scripts</span></div>
+          <div class="absolute top-3 right-3 flex gap-1.5">
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">10 scripts</span>
+            <span class="px-2 py-1 rounded-lg text-[10px] font-bold bg-slate-900/70 text-white">3 MB</span>
+          </div>
+        </div>
+        <div class="p-5 flex-1 flex flex-col">
+          <h3 class="font-black text-sig-navy text-sm leading-snug mb-2">Pack Scripts AutoLISP — Topografía y Productividad</h3>
+          <p class="text-slate-500 text-xs leading-relaxed mb-4 flex-1">Scripts AutoLISP para AutoCAD: importar puntos, grilla de coordenadas, tabla coordenadas, escala automática, áreas y más.</p>
+          <div class="space-y-1 mb-4">
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>Importar Puntos v2.3.lsp</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span>GRILLA COORDENADAS + TABLACOORD.lsp</span></div>
+            <div class="flex items-center gap-2 text-xs text-slate-600"><i class="fa-solid fa-check text-sig-teal text-[10px] flex-shrink-0"></i><span class="text-slate-400">+ 7 scripts más incluidos</span></div>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="font-black text-sig-navy text-base">COP $35.000</div>
+            <a href="https://wa.me/573127894040?text=Hola%20SIG%C2%B2%2C%20quiero%20el%20Pack%20Scripts%20AutoLISP" target="_blank"
+               class="flex items-center gap-2 px-4 py-2 bg-sig-navy text-white text-xs font-black rounded-xl hover:bg-sig-teal transition-all">
+              <i class="fa-brands fa-whatsapp text-green-400 text-xs"></i> Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CALCULADORA UTM -->
+<section id="calculadora" class="py-16 bg-slate-900 text-slate-100 border-t border-slate-700">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sig-teal/20 border border-sig-teal/40 text-sig-teal text-xs font-black uppercase tracking-wider mb-4">
+        <i class="fa-solid fa-calculator text-xs"></i> HERRAMIENTA GRATUITA
+      </span>
+      <h2 class="text-2xl sm:text-3xl font-black tracking-tight text-white mb-3">
+        Calculadora de Coordenadas <span class="text-sig-teal">UTM</span>
+      </h2>
+      <p class="text-slate-400 text-sm max-w-xl mx-auto">
+        Interpolación de puntos entre dos coordenadas UTM. Calcula distancia, azimut en GMS y puntos intermedios.
+        Exporta a CSV compatible con AutoCAD, Civil 3D y receptores GPS.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+      <!-- Panel Input -->
+      <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+        <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-700">
+          <div class="w-9 h-9 rounded-xl bg-sig-teal/20 border border-sig-teal/30 flex items-center justify-center">
+            <i class="fa-solid fa-crosshairs text-sig-teal text-sm"></i>
+          </div>
+          <div>
+            <div class="font-black text-white text-sm">Interpolación entre Puntos UTM</div>
+            <div class="text-slate-400 text-xs">Compatible: MAGNA-SIRGAS · WGS84 · SAD69</div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mb-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1.5">Este A (m)</label>
+            <input type="number" id="esteA" placeholder="1050000" class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1.5">Norte A (m)</label>
+            <input type="number" id="norteA" placeholder="752000" class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1.5">Este B (m)</label>
+            <input type="number" id="esteB" placeholder="1050250" class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1.5">Norte B (m)</label>
+            <input type="number" id="norteB" placeholder="752130" class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors placeholder-slate-600">
+          </div>
+        </div>
+        <div class="mb-5">
+          <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1.5">Intervalo (m)</label>
+          <input type="number" id="intervalo" value="20" class="w-full bg-slate-900 border border-slate-600 text-white text-sm font-mono rounded-xl px-3 py-2.5 focus:outline-none focus:border-sig-teal transition-colors">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <button onclick="calcular()" class="py-3 bg-sig-teal text-white font-black text-sm rounded-xl hover:bg-teal-500 transition-all flex items-center justify-center gap-2">
+            <i class="fa-solid fa-play text-xs"></i> Calcular
+          </button>
+          <button onclick="exportarCSV()" class="py-3 bg-slate-700 text-slate-200 font-bold text-sm rounded-xl hover:bg-slate-600 transition-all flex items-center justify-center gap-2">
+            <i class="fa-solid fa-file-csv text-green-400 text-xs"></i> Exportar CSV
+          </button>
+        </div>
+        <div id="resumen" class="hidden mt-5 p-4 bg-slate-900 rounded-xl border border-slate-700 text-xs font-mono space-y-1.5"></div>
+      </div>
+      <!-- Panel Resultados -->
+      <div class="bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden">
+        <div class="px-5 py-4 border-b border-slate-700 flex items-center justify-between">
+          <div class="font-black text-white text-sm flex items-center gap-2">
+            <i class="fa-solid fa-table-list text-sig-teal text-sm"></i>
+            Tabla de Puntos Interpolados
+          </div>
+          <span id="conteo" class="text-xs text-slate-400 font-bold bg-slate-900 px-2.5 py-1 rounded-lg">— puntos</span>
+        </div>
+        <div class="overflow-auto max-h-80">
+          <table class="w-full text-xs font-mono">
+            <thead class="bg-slate-900 sticky top-0">
+              <tr>
+                <th class="px-4 py-2.5 text-left text-slate-400 font-black uppercase tracking-wider text-[10px]">Punto</th>
+                <th class="px-4 py-2.5 text-right text-slate-400 font-black uppercase tracking-wider text-[10px]">Este (m)</th>
+                <th class="px-4 py-2.5 text-right text-slate-400 font-black uppercase tracking-wider text-[10px]">Norte (m)</th>
+                <th class="px-4 py-2.5 text-right text-slate-400 font-black uppercase tracking-wider text-[10px]">Dist. (m)</th>
+              </tr>
+            </thead>
+            <tbody id="tabla-body" class="divide-y divide-slate-700/50">
+              <tr><td colspan="4" class="px-4 py-10 text-center text-slate-500">
+                <i class="fa-solid fa-map-pin text-2xl mb-2 block text-slate-700"></i>
+                Ingresa coordenadas y presiona Calcular
+              </td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-8 bg-slate-900 border-t border-slate-800 text-center">
+  <div class="max-w-4xl mx-auto px-4">
+    <img src="assets/sig2-logo-grupo.jpg" alt="SIG² GRUPO" class="h-10 w-auto object-contain mx-auto mb-3 opacity-80">
+    <p class="text-slate-500 text-xs mb-4">SIG² GRUPO — Sistemas, Ingeniería y Gestión | Colombia</p>
+    <div class="flex flex-wrap justify-center gap-4 text-xs">
+      <a href="index.html" class="text-slate-400 hover:text-sig-teal transition-colors">Sitio Principal</a>
+      <a href="index.html#servicios" class="text-slate-400 hover:text-sig-teal transition-colors">Servicios</a>
+      <a href="index.html#plataformas" class="text-slate-400 hover:text-sig-teal transition-colors">Plataformas</a>
+      <a href="https://wa.me/573127894040" target="_blank" class="text-green-400 hover:text-green-300 transition-colors font-bold">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+let puntosCalc = [];
+function calcular() {
+  const x1=parseFloat(document.getElementById('esteA').value),
+        y1=parseFloat(document.getElementById('norteA').value),
+        x2=parseFloat(document.getElementById('esteB').value),
+        y2=parseFloat(document.getElementById('norteB').value),
+        p =parseFloat(document.getElementById('intervalo').value);
+  if([x1,y1,x2,y2,p].some(v=>isNaN(v))||p<=0){alert('Complete todos los campos con valores válidos.');return;}
+  const dx=x2-x1,dy=y2-y1,dist=Math.sqrt(dx*dx+dy*dy);
+  let az=Math.atan2(dx,dy); if(az<0)az+=2*Math.PI;
+  const azDeg=az*180/Math.PI,g=Math.floor(azDeg),mDec=(azDeg-g)*60,m=Math.floor(mDec),s=((mDec-m)*60).toFixed(3);
+  document.getElementById('resumen').classList.remove('hidden');
+  document.getElementById('resumen').innerHTML=`<div class="grid grid-cols-2 gap-x-4 gap-y-1.5"><span class="text-slate-400">Distancia total:</span><span class="text-sig-teal font-black">${dist.toFixed(3)} m</span><span class="text-slate-400">Azimut decimal:</span><span class="text-white">${azDeg.toFixed(6)}°</span><span class="text-slate-400">Azimut GMS:</span><span class="text-white">${g}° ${m}' ${s}"</span></div>`;
+  puntosCalc=[];let rows='';const n=Math.floor(dist/p);
+  for(let i=0;i<=n;i++){const f=i*p/dist,xi=x1+dx*f,yi=y1+dy*f,di=i*p;puntosCalc.push({nombre:'P'+i,este:xi,norte:yi,dist:di});rows+=`<tr class="hover:bg-slate-700/30"><td class="px-4 py-2 text-sig-teal font-bold">P${i}</td><td class="px-4 py-2 text-right text-white">${xi.toFixed(3)}</td><td class="px-4 py-2 text-right text-white">${yi.toFixed(3)}</td><td class="px-4 py-2 text-right text-slate-400">${di.toFixed(3)}</td></tr>`;}
+  if(n*p<dist){puntosCalc.push({nombre:'P'+(n+1),este:x2,norte:y2,dist:dist});rows+=`<tr class="hover:bg-slate-700/30 bg-sig-teal/5"><td class="px-4 py-2 text-sig-teal font-bold">P${n+1} <span class="text-[9px] text-slate-500">(B)</span></td><td class="px-4 py-2 text-right text-white">${x2.toFixed(3)}</td><td class="px-4 py-2 text-right text-white">${y2.toFixed(3)}</td><td class="px-4 py-2 text-right text-slate-400">${dist.toFixed(3)}</td></tr>`;}
+  document.getElementById('tabla-body').innerHTML=rows;
+  document.getElementById('conteo').textContent=puntosCalc.length+' puntos';
+}
+function exportarCSV(){
+  if(!puntosCalc.length){alert('Calcula los puntos antes de exportar.');return;}
+  let csv='Punto;Este_m;Norte_m;Distancia_m\n';
+  puntosCalc.forEach(p=>{csv+=p.nombre+';'+p.este.toFixed(3)+';'+p.norte.toFixed(3)+';'+p.dist.toFixed(3)+'\n';});
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));a.download='SIG2_puntos_UTM.csv';a.click();
+}
+</script>
+</body>
+</html>
