@@ -9249,7 +9249,7 @@ function resetAlmacenDemo() {
 }
 
 // ================================================================
-// MODULO: TIENDA SIGÂ² â€” PACKS DE ARCHIVOS Y CALCULADORA UTM
+// MODULO: TIENDA SIG² â€” PACKS DE ARCHIVOS Y CALCULADORA UTM
 // ================================================================
 
 const TIENDA_CATALOG = [
@@ -9258,9 +9258,9 @@ const TIENDA_CATALOG = [
     id: 'dwg-01', cat: 'autocad',
     img: 'assets/pack-autocad-dwg.jpg',
     badge: 'DWG / AutoCAD', badgeClass: 'bg-orange-100 text-orange-800',
-    title: 'Pack SeÃ±alizaciÃ³n Vial INVIAS',
-    desc: 'Bloques dinÃ¡micos de seÃ±ales de trÃ¡nsito segÃºn norma INVIAS Colombia. SeÃ±ales preventivas, reglamentarias e informativas listos para plottear.',
-    items: ['SEÃ‘ALES DE TRANSITO INVIAS.dwg', 'SEÃ‘ALIZACIÃ“N.dwg', 'BLOQUES DINÃMICOS SEÃ‘ALIZACIÃ“N COLOMBIA CON NORMAS.rar'],
+    title: 'Pack Señalización Vial INVIAS',
+    desc: 'Bloques dinámicos de señales de tránsito según norma INVIAS Colombia. Señales preventivas, reglamentarias e informativas listos para plottear.',
+    items: ['SEÃ‘ALES DE TRANSITO INVIAS.dwg', 'SEÃ‘ALIZACIÃ“N.dwg', 'BLOQUES DINÁMICOS SEÃ‘ALIZACIÃ“N COLOMBIA CON NORMAS.rar'],
     files: 3, size: '45 MB',
     price: 'COP $45.000'
   },
@@ -9269,7 +9269,7 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-autocad-dwg.jpg',
     badge: 'DWG / Estructural', badgeClass: 'bg-orange-100 text-orange-800',
     title: 'Pack Estructural â€” Cimentaciones y Losas',
-    desc: 'Bloques y plantillas para diseÃ±o estructural: cimentaciones, losas aligeradas, vigas, estribos y detalles constructivos en concreto reforzado.',
+    desc: 'Bloques y plantillas para diseño estructural: cimentaciones, losas aligeradas, vigas, estribos y detalles constructivos en concreto reforzado.',
     items: ['BD CIMENTACIONES.dwg', 'LOSA ALIGERADA Y DETALLES.dwg', 'ESTRIBOS CIMENTACION.dwg', 'PLANTILLAS ESTRUCTURAL.rar'],
     files: 6, size: '90 MB',
     price: 'COP $55.000'
@@ -9279,7 +9279,7 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-autocad-dwg.jpg',
     badge: 'DWG / Hidrosanitario', badgeClass: 'bg-blue-100 text-blue-800',
     title: 'Pack Hidrosanitario y Redes',
-    desc: 'Planos base y bloques para redes de agua potable, alcantarillado sanitario y unidades bÃ¡sicas de saneamiento (UBS).',
+    desc: 'Planos base y bloques para redes de agua potable, alcantarillado sanitario y unidades básicas de saneamiento (UBS).',
     items: ['INSTALACIONES SANITARIAS.dwg', 'PLANTILLA HIDROSANITARIA.dwt', 'PLANTILLA RED DE AGUA.dwt', 'DATA-ALCANTARILLADO.rar'],
     files: 5, size: '60 MB',
     price: 'COP $40.000'
@@ -9288,8 +9288,8 @@ const TIENDA_CATALOG = [
     id: 'dwg-04', cat: 'autocad',
     img: 'assets/pack-civil-vias.jpg',
     badge: 'Civil 3D / Assemblies', badgeClass: 'bg-orange-100 text-orange-800',
-    title: 'Pack Civil 3D â€” VÃ­as Urbanas y Assemblies',
-    desc: 'ColecciÃ³n de assemblies para Autodesk Civil 3D y bloques para diseÃ±o de vÃ­as urbanas, pistas y veredas segÃºn normas colombianas.',
+    title: 'Pack Civil 3D â€” Vías Urbanas y Assemblies',
+    desc: 'Colección de assemblies para Autodesk Civil 3D y bloques para diseño de vías urbanas, pistas y veredas según normas colombianas.',
     items: ['ASSEMBLYS VIAS URBANAS.dwg', 'SUBASSEMBLY COLLECTION.dwg', 'PLANTILLA PISTAS VEREDAS.dwt'],
     files: 4, size: '75 MB',
     price: 'COP $50.000'
@@ -9300,7 +9300,7 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-topografia-gis.jpg',
     badge: 'GIS / KMZ', badgeClass: 'bg-green-100 text-green-800',
     title: 'Red Pasiva GNSS Colombia',
-    desc: 'Archivo KMZ con la Red Pasiva GNSS de Colombia para visualizaciÃ³n en Google Earth. Estaciones del IGAC y SGC georreferenciadas.',
+    desc: 'Archivo KMZ con la Red Pasiva GNSS de Colombia para visualización en Google Earth. Estaciones del IGAC y SGC georreferenciadas.',
     items: ['RED PASIVA COLOMBIA.kmz'],
     files: 1, size: '8 MB',
     price: 'COP $25.000'
@@ -9309,8 +9309,8 @@ const TIENDA_CATALOG = [
     id: 'topo-02', cat: 'topografia',
     img: 'assets/pack-topografia-gis.jpg',
     badge: 'APK / GPS RTK', badgeClass: 'bg-green-100 text-green-800',
-    title: 'Pack Apps GPS RTK y GIS MÃ³vil',
-    desc: 'ColecciÃ³n de APKs para levantamientos topogrÃ¡ficos con GPS RTK, visualizaciÃ³n DWG en campo y planificaciÃ³n de vuelos drone.',
+    title: 'Pack Apps GPS RTK y GIS Móvil',
+    desc: 'Colección de APKs para levantamientos topográficos con GPS RTK, visualización DWG en campo y planificación de vuelos drone.',
     items: ['rtk-app.apk', 'rtkgps-1-0-alpha-23.apk', 'DWG FastView.apk', 'Drone Assist.apk', 'ColSat 2.1.apk'],
     files: 7, size: '350 MB',
     price: 'COP $35.000'
@@ -9320,7 +9320,7 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-topografia-gis.jpg',
     badge: 'Excel / GNSS', badgeClass: 'bg-teal-100 text-teal-800',
     title: 'Planilla Tiempos de Rastreo GNSS',
-    desc: 'Hoja de cÃ¡lculo profesional para registrar y calcular tiempos de rastreo estÃ¡tico, cÃ¡lculo de precisiÃ³n y tiempo de observaciÃ³n Ã³ptimo.',
+    desc: 'Hoja de cálculo profesional para registrar y calcular tiempos de rastreo estático, cálculo de precisión y tiempo de observación óptimo.',
     items: ['Tiempos de Rastreo v4.0 2026.xlsx'],
     files: 1, size: '2 MB',
     price: 'COP $30.000'
@@ -9329,20 +9329,20 @@ const TIENDA_CATALOG = [
   {
     id: 'xls-01', cat: 'plantillas',
     img: 'assets/pack-plantillas-excel.jpg',
-    badge: 'Excel / ProducciÃ³n', badgeClass: 'bg-emerald-100 text-emerald-800',
-    title: 'Pack ProducciÃ³n e Inventario',
-    desc: 'Suite completa: EOQ, MRP, OEE, revisiÃ³n continua de inventario, pronÃ³sticos por promedio simple y lote econÃ³mico de producciÃ³n.',
-    items: ['EOQ Model.xlsx', 'OEE Planta.xlsx', 'Inventario RevisiÃ³n Continua.xlsx', 'Lote EconÃ³mico a Producir.xlsx'],
+    badge: 'Excel / Producción', badgeClass: 'bg-emerald-100 text-emerald-800',
+    title: 'Pack Producción e Inventario',
+    desc: 'Suite completa: EOQ, MRP, OEE, revisión continua de inventario, pronósticos por promedio simple y lote económico de producción.',
+    items: ['EOQ Model.xlsx', 'OEE Planta.xlsx', 'Inventario Revisión Continua.xlsx', 'Lote Económico a Producir.xlsx'],
     files: 8, size: '15 MB',
     price: 'COP $45.000'
   },
   {
     id: 'xls-02', cat: 'plantillas',
     img: 'assets/pack-plantillas-excel.jpg',
-    badge: 'Excel / EstadÃ­stica', badgeClass: 'bg-emerald-100 text-emerald-800',
-    title: 'Pack PronÃ³sticos y AnÃ¡lisis EstadÃ­stico',
-    desc: 'Plantillas para pronÃ³sticos de demanda: promedio simple y ponderado, suavizaciÃ³n exponencial simple y doble, regresiÃ³n lineal.',
-    items: ['Promedio Simple.xlsx', 'Promedio Ponderado.xlsx', 'SuavizaciÃ³n Exponencial.xlsx', 'RegresiÃ³n Lineal.xlsx'],
+    badge: 'Excel / Estadística', badgeClass: 'bg-emerald-100 text-emerald-800',
+    title: 'Pack Pronósticos y Análisis Estadístico',
+    desc: 'Plantillas para pronósticos de demanda: promedio simple y ponderado, suavización exponencial simple y doble, regresión lineal.',
+    items: ['Promedio Simple.xlsx', 'Promedio Ponderado.xlsx', 'Suavización Exponencial.xlsx', 'Regresión Lineal.xlsx'],
     files: 6, size: '10 MB',
     price: 'COP $35.000'
   },
@@ -9351,8 +9351,8 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-plantillas-excel.jpg',
     badge: 'Excel / Calidad', badgeClass: 'bg-emerald-100 text-emerald-800',
     title: 'Pack Herramientas de Calidad',
-    desc: 'Plantillas profesionales para gestiÃ³n de calidad: Diagrama de Pareto, Ishikawa, 5W2H, DispersiÃ³n, Matriz BCG y Matriz de Vester.',
-    items: ['5W2H.xlsx', 'Diagrama de Pareto.xlsx', 'Ishikawa.xlsx', 'DispersiÃ³n.xlsx', 'Matriz BCG.xlsx', 'Matriz Vester.xlsx'],
+    desc: 'Plantillas profesionales para gestión de calidad: Diagrama de Pareto, Ishikawa, 5W2H, Dispersión, Matriz BCG y Matriz de Vester.',
+    items: ['5W2H.xlsx', 'Diagrama de Pareto.xlsx', 'Ishikawa.xlsx', 'Dispersión.xlsx', 'Matriz BCG.xlsx', 'Matriz Vester.xlsx'],
     files: 7, size: '12 MB',
     price: 'COP $40.000'
   },
@@ -9362,7 +9362,7 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-civil-vias.jpg',
     badge: 'DWT / Civil', badgeClass: 'bg-blue-100 text-blue-800',
     title: 'Pack Plantillas Civiles Completas',
-    desc: 'Plantillas DWT profesionales para: saneamiento, carreteras, canales, movimiento de tierras, muros de contenciÃ³n, tÃºneles y catastro.',
+    desc: 'Plantillas DWT profesionales para: saneamiento, carreteras, canales, movimiento de tierras, muros de contención, túneles y catastro.',
     items: ['Saneamiento.rar', 'Carreteras.rar', 'Canal Rectangular.dwt', 'Movimiento Tierras.dwt', 'PLANTILLA TUNEL.dwt'],
     files: 12, size: '180 MB',
     price: 'COP $60.000'
@@ -9370,9 +9370,9 @@ const TIENDA_CATALOG = [
   {
     id: 'civ-02', cat: 'civil',
     img: 'assets/pack-civil-vias.jpg',
-    badge: 'Excel / VolÃºmenes', badgeClass: 'bg-blue-100 text-blue-800',
+    badge: 'Excel / Volúmenes', badgeClass: 'bg-blue-100 text-blue-800',
     title: 'Planilla Movimiento de Tierras y Curvas de Masa',
-    desc: 'CÃ¡lculo profesional de volÃºmenes de corte y relleno, curvas de masa y balance de tierras para vÃ­as, plataformas y canales.',
+    desc: 'Cálculo profesional de volúmenes de corte y relleno, curvas de masa y balance de tierras para vías, plataformas y canales.',
     items: ['Movimiento de Tierras.xlsx', 'Caminos de Herradura.xlsx', 'Canal Rectangular-Trapezoidal.xlsx'],
     files: 3, size: '5 MB',
     price: 'COP $45.000'
@@ -9381,9 +9381,9 @@ const TIENDA_CATALOG = [
   {
     id: 'lsp-01', cat: 'lsp',
     img: 'assets/pack-lisp-scripts.jpg',
-    badge: 'AutoLISP / TopografÃ­a', badgeClass: 'bg-purple-100 text-purple-800',
-    title: 'Pack Scripts AutoLISP â€” TopografÃ­a',
-    desc: 'Scripts AutoLISP para AutoCAD: importar puntos de coordenadas, grilla de coordenadas, tabla de coordenadas y lÃ­deres con XYZ automÃ¡tico.',
+    badge: 'AutoLISP / Topografía', badgeClass: 'bg-purple-100 text-purple-800',
+    title: 'Pack Scripts AutoLISP â€” Topografía',
+    desc: 'Scripts AutoLISP para AutoCAD: importar puntos de coordenadas, grilla de coordenadas, tabla de coordenadas y líderes con XYZ automático.',
     items: ['Importar Puntos v2.3.lsp', 'GRILLA DE COORDENADAS.lsp', 'TABLACOORD.lsp', 'CXYZ Leader.LSP'],
     files: 4, size: '1 MB',
     price: 'COP $35.000'
@@ -9393,7 +9393,7 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-lisp-scripts.jpg',
     badge: 'AutoLISP / Productividad', badgeClass: 'bg-purple-100 text-purple-800',
     title: 'Pack Scripts AutoLISP â€” Productividad',
-    desc: 'Scripts para AutoCAD: escala automÃ¡tica, cortes, Ã¡reas, numeraciÃ³n correlativa, gestiÃ³n de estilo de ploteo y cuadros de curvas.',
+    desc: 'Scripts para AutoCAD: escala automática, cortes, áreas, numeración correlativa, gestión de estilo de ploteo y cuadros de curvas.',
     items: ['ESCA.LSP', 'CORTE.LSP', 'AREA V1.0.VLX', 'NUMERA.LSP', 'CPS.lsp', 'QC Cuadros de Curvas.lsp'],
     files: 7, size: '2 MB',
     price: 'COP $35.000'
@@ -9402,9 +9402,9 @@ const TIENDA_CATALOG = [
     id: 'lsp-03', cat: 'lsp',
     img: 'assets/pack-lisp-scripts.jpg',
     badge: 'AutoLISP / Avanzado', badgeClass: 'bg-purple-100 text-purple-800',
-    title: 'Pack AutoLISP Avanzado + Plano TopogrÃ¡fico RÃ¡pido',
-    desc: 'ColecciÃ³n avanzada de paquetes LSP mÃ¡s el script para generar planos topogrÃ¡ficos profesionales automÃ¡ticamente desde puntos levantados.',
-    items: ['Pack 03 LSP.rar', 'LISP Generar Plano TopogrÃ¡fico Rapido.zip', 'PtManagerV2-4.lsp'],
+    title: 'Pack AutoLISP Avanzado + Plano Topográfico Rápido',
+    desc: 'Colección avanzada de paquetes LSP más el script para generar planos topográficos profesionales automáticamente desde puntos levantados.',
+    items: ['Pack 03 LSP.rar', 'LISP Generar Plano Topográfico Rapido.zip', 'PtManagerV2-4.lsp'],
     files: 5, size: '8 MB',
     price: 'COP $50.000'
   },
@@ -9414,7 +9414,7 @@ const TIENDA_CATALOG = [
     img: 'assets/pack-gestion-logistica.jpg',
     badge: 'Maquinaria / RAR', badgeClass: 'bg-sig-teal/20 text-sig-teal',
     title: 'Pack Rendimiento de Maquinaria Pesada',
-    desc: 'Tablas y fichas tÃ©cnicas para cÃ¡lculo de rendimiento de maquinaria en obras civiles y proyectos mineros. Excavadoras, buldÃ³ceres, compactadores.',
+    desc: 'Tablas y fichas técnicas para cálculo de rendimiento de maquinaria en obras civiles y proyectos mineros. Excavadoras, buldóceres, compactadores.',
     items: ['RENDIMIENTO DE MAQUINARIAS.rar'],
     files: 1, size: '5 MB',
     price: 'COP $30.000'
@@ -9422,9 +9422,9 @@ const TIENDA_CATALOG = [
   {
     id: 'ges-02', cat: 'gestion',
     img: 'assets/pack-gestion-logistica.jpg',
-    badge: 'Excel / PlaneaciÃ³n', badgeClass: 'bg-sig-teal/20 text-sig-teal',
-    title: 'Pack Plan Agregado de ProducciÃ³n',
-    desc: 'Tres mÃ©todos de planificaciÃ³n agregada en Excel: Fuerza de Trabajo Nivelada, AcumulaciÃ³n de Inventarios y Estrategia Mixta optimizada.',
+    badge: 'Excel / Planeación', badgeClass: 'bg-sig-teal/20 text-sig-teal',
+    title: 'Pack Plan Agregado de Producción',
+    desc: 'Tres métodos de planificación agregada en Excel: Fuerza de Trabajo Nivelada, Acumulación de Inventarios y Estrategia Mixta optimizada.',
     items: ['Plan Agregado Mixta.xlsx', 'Fuerza de Trabajo.xlsx', 'Estrategia Inventarios.xlsx'],
     files: 3, size: '4 MB',
     price: 'COP $35.000'
@@ -9473,7 +9473,7 @@ function renderTiendaGrid(productos) {
               <i class="fa-solid fa-check text-sig-teal flex-shrink-0 text-[10px]"></i>
               <span class="truncate font-mono">${i}</span>
             </div>`).join('')}
-          ${p.items.length > 3 ? `<div class="text-xs text-slate-400 pl-4 font-bold">+ ${p.items.length - 3} archivos mÃ¡s incluidos</div>` : ''}
+          ${p.items.length > 3 ? `<div class="text-xs text-slate-400 pl-4 font-bold">+ ${p.items.length - 3} archivos más incluidos</div>` : ''}
         </div>
         <!-- Footer -->
         <div class="flex items-center justify-between pt-4 border-t border-slate-100">
@@ -9511,7 +9511,7 @@ function calcularUTM() {
   const y2 = parseFloat(document.getElementById('utm-norteB').value);
   const passo = parseFloat(document.getElementById('utm-intervalo').value);
   if ([x1, y1, x2, y2, passo].some(v => isNaN(v)) || passo <= 0) {
-    alert('Complete todos los campos con valores numÃ©ricos vÃ¡lidos.');
+    alert('Complete todos los campos con valores numéricos válidos.');
     return;
   }
   const dx = x2 - x1, dy = y2 - y1;
@@ -9570,7 +9570,7 @@ function exportarUTMCSV() {
   a.click();
 }
 // ================================================================
-// FIN MODULO TIENDA SIGÂ²
+// FIN MODULO TIENDA SIG²
 // ================================================================/**
  * SIG² | Sistemas y Soluciones • Integrado e Ingeniería • Geográfico y Gestión
  * División Logística & Soluciones Digitales
@@ -18822,7 +18822,7 @@ function resetAlmacenDemo() {
 }
 
 // ================================================================
-// MODULO: TIENDA SIGÂ² - PACKS DE ARCHIVOS Y CALCULADORA UTM
+// MODULO: TIENDA SIG² - PACKS DE ARCHIVOS Y CALCULADORA UTM
 // ================================================================
 
 const TIENDA_CATALOG = [
@@ -18831,18 +18831,18 @@ const TIENDA_CATALOG = [
     id: 'dwg-01', cat: 'autocad',
     icon: 'fa-solid fa-drafting-compass', iconColor: 'text-orange-500',
     badge: 'DWG',  badgeColor: 'bg-orange-100 text-orange-800',
-    title: 'Pack SeÃ±alizaciÃ³n Vial INVIAS',
-    desc: 'Bloques dinÃ¡micos de seÃ±ales de trÃ¡nsito segÃºn norma INVIAS Colombia. Incluye seÃ±ales preventivas, reglamentarias e informativas.',
-    items: ['SEÃ‘ALES DE TRANSITO INVIAS.dwg', 'SEÃ‘ALIZACIÃ“N.dwg', 'BLOQUES DINÃMICOS SEÃ‘ALIZACIÃ“N COLOMBIA.rar'],
+    title: 'Pack Señalización Vial INVIAS',
+    desc: 'Bloques dinámicos de señales de tránsito según norma INVIAS Colombia. Incluye señales preventivas, reglamentarias e informativas.',
+    items: ['SEÃ‘ALES DE TRANSITO INVIAS.dwg', 'SEÃ‘ALIZACIÃ“N.dwg', 'BLOQUES DINÁMICOS SEÃ‘ALIZACIÃ“N COLOMBIA.rar'],
     price: 'COP $45.000',
-    tags: ['VÃ­as', 'INVIAS', 'SeÃ±alizaciÃ³n']
+    tags: ['Vías', 'INVIAS', 'Señalización']
   },
   {
     id: 'dwg-02', cat: 'autocad',
     icon: 'fa-solid fa-building-columns', iconColor: 'text-orange-500',
     badge: 'DWG',  badgeColor: 'bg-orange-100 text-orange-800',
     title: 'Pack Estructural - Cimentaciones',
-    desc: 'Bloques y plantillas para diseÃ±o estructural: cimentaciones, losas aligeradas, vigas, estribos y detalles constructivos.',
+    desc: 'Bloques y plantillas para diseño estructural: cimentaciones, losas aligeradas, vigas, estribos y detalles constructivos.',
     items: ['BD CIMENTACIONES.dwg', 'LOSA ALIGERADA Y DETALLES.dwg', 'ESTRIBOS CIMENTACION.dwg', 'PLANTILLAS ESTRUCTURAL.rar'],
     price: 'COP $55.000',
     tags: ['Estructuras', 'Concreto', 'Detalles']
@@ -18852,7 +18852,7 @@ const TIENDA_CATALOG = [
     icon: 'fa-solid fa-faucet', iconColor: 'text-blue-500',
     badge: 'DWG',  badgeColor: 'bg-orange-100 text-orange-800',
     title: 'Pack Hidrosanitario & Redes',
-    desc: 'Planos base y bloques para redes de agua potable, alcantarillado y unidades bÃ¡sicas de saneamiento (UBS).',
+    desc: 'Planos base y bloques para redes de agua potable, alcantarillado y unidades básicas de saneamiento (UBS).',
     items: ['INSTALACIONES SANITARIAS.dwg', 'PLANTILLA HIDROSANITARIA.dwt', 'PLANTILLA RED DE AGUA.dwt', 'DATA-ALCANTARILLADO.rar'],
     price: 'COP $40.000',
     tags: ['Hidrosanitario', 'Redes', 'UBS']
@@ -18861,11 +18861,11 @@ const TIENDA_CATALOG = [
     id: 'dwg-04', cat: 'autocad',
     icon: 'fa-solid fa-road', iconColor: 'text-slate-600',
     badge: 'DWG',  badgeColor: 'bg-orange-100 text-orange-800',
-    title: 'Pack VÃ­as Urbanas & Assemblys',
-    desc: 'ColecciÃ³n de assemblies para Civil 3D y bloques para diseÃ±o de vÃ­as urbanas, pistas y veredas.',
+    title: 'Pack Vías Urbanas & Assemblys',
+    desc: 'Colección de assemblies para Civil 3D y bloques para diseño de vías urbanas, pistas y veredas.',
     items: ['ASSEMBLYS VIAS URBANAS.dwg', 'SUBASSEMBLY COLLECTION.dwg', 'PLANTILLA PISTAS VEREDAS.dwt'],
     price: 'COP $50.000',
-    tags: ['Civil 3D', 'VÃ­as', 'Assemblies']
+    tags: ['Civil 3D', 'Vías', 'Assemblies']
   },
   // ---- TOPOGRAFIA / GIS ----
   {
@@ -18873,7 +18873,7 @@ const TIENDA_CATALOG = [
     icon: 'fa-solid fa-map-location-dot', iconColor: 'text-green-600',
     badge: 'GIS',  badgeColor: 'bg-green-100 text-green-800',
     title: 'Red Pasiva GNSS Colombia',
-    desc: 'Archivo KMZ con la Red Pasiva GNSS de Colombia para visualizaciÃ³n en Google Earth. Estaciones del IGAC y SGC.',
+    desc: 'Archivo KMZ con la Red Pasiva GNSS de Colombia para visualización en Google Earth. Estaciones del IGAC y SGC.',
     items: ['RED PASIVA COLOMBIA.kmz'],
     price: 'COP $25.000',
     tags: ['GNSS', 'IGAC', 'Google Earth']
@@ -18882,8 +18882,8 @@ const TIENDA_CATALOG = [
     id: 'topo-02', cat: 'topografia',
     icon: 'fa-solid fa-satellite-dish', iconColor: 'text-green-600',
     badge: 'APK',  badgeColor: 'bg-green-100 text-green-800',
-    title: 'Pack Apps GPS RTK & GIS MÃ³vil',
-    desc: 'ColecciÃ³n de APKs para levantamientos topogrÃ¡ficos con GPS RTK, visualizaciÃ³n DWG y mediciÃ³n con drone.',
+    title: 'Pack Apps GPS RTK & GIS Móvil',
+    desc: 'Colección de APKs para levantamientos topográficos con GPS RTK, visualización DWG y medición con drone.',
     items: ['rtk-app.apk', 'rtkgps-1-0-alpha-23.apk', 'DWG FastView.apk', 'Drone Assist.apk', 'ColSat_2.1.apk'],
     price: 'COP $35.000',
     tags: ['RTK', 'GPS', 'Android', 'Drone']
@@ -18893,7 +18893,7 @@ const TIENDA_CATALOG = [
     icon: 'fa-solid fa-clock-rotate-left', iconColor: 'text-teal-600',
     badge: 'XLSX',  badgeColor: 'bg-teal-100 text-teal-800',
     title: 'Planilla Tiempos de Rastreo GNSS',
-    desc: 'Hoja de cÃ¡lculo profesional para registrar y calcular tiempos de rastreo estÃ¡tico y tiempo de observaciÃ³n Ã³ptimo.',
+    desc: 'Hoja de cálculo profesional para registrar y calcular tiempos de rastreo estático y tiempo de observación óptimo.',
     items: ['Tiempos de Rastreo v4.0 Actual 09-06-2026.xlsx'],
     price: 'COP $30.000',
     tags: ['GNSS', 'Rastreo', 'Excel']
@@ -18903,29 +18903,29 @@ const TIENDA_CATALOG = [
     id: 'xls-01', cat: 'plantillas',
     icon: 'fa-solid fa-file-excel', iconColor: 'text-emerald-600',
     badge: 'XLSX',  badgeColor: 'bg-emerald-100 text-emerald-800',
-    title: 'Pack GestiÃ³n de ProducciÃ³n & Inventario',
-    desc: 'Suite completa de plantillas Excel: EOQ, MRP, OEE, revisiÃ³n continua de inventario, pronÃ³sticos y lote econÃ³mico.',
-    items: ['EOQ Model.xlsx', 'OEE.xlsx', 'sistema-inventario-revisiÃ³n-continua.xlsx', 'Lote econÃ³mico a producir.xlsx'],
+    title: 'Pack Gestión de Producción & Inventario',
+    desc: 'Suite completa de plantillas Excel: EOQ, MRP, OEE, revisión continua de inventario, pronósticos y lote económico.',
+    items: ['EOQ Model.xlsx', 'OEE.xlsx', 'sistema-inventario-revisión-continua.xlsx', 'Lote económico a producir.xlsx'],
     price: 'COP $45.000',
-    tags: ['ProducciÃ³n', 'Inventario', 'EOQ', 'OEE']
+    tags: ['Producción', 'Inventario', 'EOQ', 'OEE']
   },
   {
     id: 'xls-02', cat: 'plantillas',
     icon: 'fa-solid fa-chart-line', iconColor: 'text-emerald-600',
     badge: 'XLSX',  badgeColor: 'bg-emerald-100 text-emerald-800',
-    title: 'Pack PronÃ³sticos & AnÃ¡lisis EstadÃ­stico',
-    desc: 'Plantillas para pronÃ³sticos: promedio simple y ponderado, suavizaciÃ³n exponencial simple y doble, regresiÃ³n lineal.',
-    items: ['Promedio simple.xlsx', 'Promedio ponderado.xlsx', 'SuavizaciÃ³n exponencial.xlsx', 'RegresiÃ³n lineal.xlsx'],
+    title: 'Pack Pronósticos & Análisis Estadístico',
+    desc: 'Plantillas para pronósticos: promedio simple y ponderado, suavización exponencial simple y doble, regresión lineal.',
+    items: ['Promedio simple.xlsx', 'Promedio ponderado.xlsx', 'Suavización exponencial.xlsx', 'Regresión lineal.xlsx'],
     price: 'COP $35.000',
-    tags: ['PronÃ³sticos', 'EstadÃ­stica', 'RegresiÃ³n']
+    tags: ['Pronósticos', 'Estadística', 'Regresión']
   },
   {
     id: 'xls-03', cat: 'plantillas',
     icon: 'fa-solid fa-diagram-project', iconColor: 'text-emerald-600',
     badge: 'XLSX',  badgeColor: 'bg-emerald-100 text-emerald-800',
     title: 'Pack Herramientas de Calidad (5W2H, Pareto, Ishikawa)',
-    desc: 'Plantillas profesionales: Diagrama de Pareto, Ishikawa (Espina de Pescado), 5W2H, DispersiÃ³n, Matriz BCG.',
-    items: ['5W2H.xlsx', 'Pareto.xlsx', 'Ishikawa.xlsx', 'Diagrama dispersiÃ³n.xlsx', 'Matriz BCG.xlsx', 'Matriz Vester.xlsx'],
+    desc: 'Plantillas profesionales: Diagrama de Pareto, Ishikawa (Espina de Pescado), 5W2H, Dispersión, Matriz BCG.',
+    items: ['5W2H.xlsx', 'Pareto.xlsx', 'Ishikawa.xlsx', 'Diagrama dispersión.xlsx', 'Matriz BCG.xlsx', 'Matriz Vester.xlsx'],
     price: 'COP $40.000',
     tags: ['Calidad', 'Mejora continua', 'ISO']
   },
@@ -18935,7 +18935,7 @@ const TIENDA_CATALOG = [
     icon: 'fa-solid fa-mountain-city', iconColor: 'text-blue-600',
     badge: 'DWT',  badgeColor: 'bg-blue-100 text-blue-800',
     title: 'Pack Plantillas Civiles Completas',
-    desc: 'Plantillas DWT profesionales para: saneamiento, carreteras, canales, movimiento de tierras, muros de contenciÃ³n y tÃºneles.',
+    desc: 'Plantillas DWT profesionales para: saneamiento, carreteras, canales, movimiento de tierras, muros de contención y túneles.',
     items: ['Saneamiento.rar', 'Carreteras.rar', 'Canal Rectangular.dwt', 'Movimiento Tierras.dwt', 'PLANTILLA TUNEL.dwt'],
     price: 'COP $60.000',
     tags: ['Civil 3D', 'Plantillas', 'DWT']
@@ -18945,28 +18945,28 @@ const TIENDA_CATALOG = [
     icon: 'fa-solid fa-ruler-combined', iconColor: 'text-blue-600',
     badge: 'XLSX',  badgeColor: 'bg-blue-100 text-blue-800',
     title: 'Planilla Movimiento de Tierras & Curvas de Masa',
-    desc: 'CÃ¡lculo profesional de volÃºmenes de corte y relleno, curvas de masa y balance de tierras para vÃ­as y plataformas.',
+    desc: 'Cálculo profesional de volúmenes de corte y relleno, curvas de masa y balance de tierras para vías y plataformas.',
     items: ['Plantilla Movimiento de Tierras.xlsx', 'Caminos de Herradura.xlsx', 'Canal Rectangular-Trapezoidal.xlsx'],
     price: 'COP $45.000',
-    tags: ['VolÃºmenes', 'Masa', 'Carreteras']
+    tags: ['Volúmenes', 'Masa', 'Carreteras']
   },
   // ---- LSP AUTOLISP ----
   {
     id: 'lsp-01', cat: 'lsp',
     icon: 'fa-solid fa-code', iconColor: 'text-purple-600',
     badge: 'LSP',  badgeColor: 'bg-purple-100 text-purple-800',
-    title: 'Pack Scripts AutoLISP TopografÃ­a',
-    desc: 'Scripts AutoLISP para AutoCAD: importar puntos de coordenadas, grilla de coordenadas, tabla de coordenadas y lÃ­deres XYZ.',
+    title: 'Pack Scripts AutoLISP Topografía',
+    desc: 'Scripts AutoLISP para AutoCAD: importar puntos de coordenadas, grilla de coordenadas, tabla de coordenadas y líderes XYZ.',
     items: ['Importar puntos v2.3.lsp', 'GRILLA DE COORDENADAS.lsp', 'TABLACOORD.lsp', 'CXYZ Leader.LSP'],
     price: 'COP $35.000',
-    tags: ['AutoLISP', 'TopografÃ­a', 'AutomatizaciÃ³n']
+    tags: ['AutoLISP', 'Topografía', 'Automatización']
   },
   {
     id: 'lsp-02', cat: 'lsp',
     icon: 'fa-solid fa-terminal', iconColor: 'text-purple-600',
     badge: 'LSP',  badgeColor: 'bg-purple-100 text-purple-800',
     title: 'Pack Scripts AutoLISP Productividad',
-    desc: 'Scripts para aumentar productividad en AutoCAD: escala automÃ¡tica, cortes, Ã¡reas, numeraciÃ³n correlativa, ploteo y cuadros de curvas.',
+    desc: 'Scripts para aumentar productividad en AutoCAD: escala automática, cortes, áreas, numeración correlativa, ploteo y cuadros de curvas.',
     items: ['ESCA.LSP', 'CORTE.LSP', 'AREA V1.0.VLX', 'NUMERA.LSP', 'CPS.lsp', 'QC_Quadros de curvas.lsp'],
     price: 'COP $35.000',
     tags: ['AutoLISP', 'Productividad', 'AutoCAD']
@@ -18975,11 +18975,11 @@ const TIENDA_CATALOG = [
     id: 'lsp-03', cat: 'lsp',
     icon: 'fa-solid fa-layer-group', iconColor: 'text-purple-600',
     badge: 'ZIP',  badgeColor: 'bg-purple-100 text-purple-800',
-    title: 'Pack LSP Avanzado + Plano TopogrÃ¡fico RÃ¡pido',
-    desc: 'ColecciÃ³n avanzada de 3 paquetes LSP mÃ¡s el script para generar planos topogrÃ¡ficos profesionales automÃ¡ticamente.',
-    items: ['(03 LSP).rar', 'LISP Generar Plano TopogrÃ¡fico Rapido.zip', 'PtManagerV2-4.lsp'],
+    title: 'Pack LSP Avanzado + Plano Topográfico Rápido',
+    desc: 'Colección avanzada de 3 paquetes LSP más el script para generar planos topográficos profesionales automáticamente.',
+    items: ['(03 LSP).rar', 'LISP Generar Plano Topográfico Rapido.zip', 'PtManagerV2-4.lsp'],
     price: 'COP $50.000',
-    tags: ['LSP', 'Avanzado', 'TopografÃ­a']
+    tags: ['LSP', 'Avanzado', 'Topografía']
   },
   // ---- GESTION & LOGISTICA ----
   {
@@ -18987,7 +18987,7 @@ const TIENDA_CATALOG = [
     icon: 'fa-solid fa-boxes-stacked', iconColor: 'text-sig-teal',
     badge: 'RAR',  badgeColor: 'bg-teal-100 text-teal-800',
     title: 'Pack Rendimiento de Maquinaria',
-    desc: 'Tablas y fichas tÃ©cnicas para cÃ¡lculo de rendimiento de maquinaria pesada en obras civiles y mineras.',
+    desc: 'Tablas y fichas técnicas para cálculo de rendimiento de maquinaria pesada en obras civiles y mineras.',
     items: ['RENDIMIENTO DE MAQUINARIAS.rar'],
     price: 'COP $30.000',
     tags: ['Maquinaria', 'Rendimiento', 'Obra civil']
@@ -18996,11 +18996,11 @@ const TIENDA_CATALOG = [
     id: 'ges-02', cat: 'gestion',
     icon: 'fa-solid fa-chart-pie', iconColor: 'text-sig-teal',
     badge: 'XLSX',  badgeColor: 'bg-teal-100 text-teal-800',
-    title: 'Pack Plan Agregado de ProducciÃ³n',
-    desc: 'Tres mÃ©todos de planificaciÃ³n agregada: Fuerza de Trabajo Nivelada, Inventarios y Estrategia Mixta en Excel.',
+    title: 'Pack Plan Agregado de Producción',
+    desc: 'Tres métodos de planificación agregada: Fuerza de Trabajo Nivelada, Inventarios y Estrategia Mixta en Excel.',
     items: ['Plan Agregado Mixta.xlsx', 'Fuerza de Trabajo.xlsx', 'Estrategia Inventarios.xlsx'],
     price: 'COP $35.000',
-    tags: ['PlaneaciÃ³n', 'ProducciÃ³n', 'MRP']
+    tags: ['Planeación', 'Producción', 'MRP']
   }
 ];
 
@@ -19039,7 +19039,7 @@ function renderTiendaGrid(productos) {
               <i class="fa-solid fa-check text-green-500 flex-shrink-0 text-[10px]"></i>
               <span class="truncate">${i}</span>
             </div>`).join('')}
-          ${p.items.length > 3 ? `<div class="text-xs text-slate-400 pl-4">+${p.items.length - 3} archivos mÃ¡s</div>` : ''}
+          ${p.items.length > 3 ? `<div class="text-xs text-slate-400 pl-4">+${p.items.length - 3} archivos más</div>` : ''}
         </div>
         <!-- Tags -->
         <div class="flex flex-wrap gap-1">
@@ -19084,7 +19084,7 @@ function calcularUTM() {
   const passo = parseFloat(document.getElementById('utm-intervalo').value);
 
   if ([x1, y1, x2, y2, passo].some(v => isNaN(v)) || passo <= 0) {
-    alert('Por favor ingresa todos los campos con valores vÃ¡lidos.');
+    alert('Por favor ingresa todos los campos con valores válidos.');
     return;
   }
 
@@ -19170,5 +19170,5 @@ function exportarUTMCSV() {
 }
 
 // ================================================================
-// FIN MODULO TIENDA SIGÂ²
+// FIN MODULO TIENDA SIG²
 // ================================================================
