@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sig2ingenieria.github.io/ingenieria-sig/sitemap.xml
+
+# Crawl-delay (opcional, cortesia con bots)
+Crawl-delay: 1
